@@ -1,71 +1,33 @@
-# grapple README
+# Grapple ⚓
 
-This is the README for your extension "grapple". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+[English](#english) | [Español](#español)
 
 ---
 
-## Following extension guidelines
+## English
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+**Grapple** is a lightweight VS Code extension designed for frictionless code navigation. Drop a visual checkpoint anywhere in your codebase and warp straight back to it with a single keystroke.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+### 🚀 Quick Start
+* **Toggle Checkpoint:** Press `Ctrl+Alt+P` (`Cmd+Alt+P` on Mac) to drop or remove a visual anchor on the current line.
+* **Warp Back:** Use the Command Palette (`Ctrl+Shift+P`) and run `Grapple: Ir al Checkpoint` to instantly jump back to your anchor from any file.
 
-## Working with Markdown
+### ✨ Features
+* **Visual Anchors:** Subtle line highlights and overview ruler markers keep your checkpoint visible.
+* **Instant Navigation:** Automatically opens the correct file, moves your cursor, and centers the screen.
+* **Keyboard-First:** Fully compatible with custom VS Code keybindings.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Español
 
-## For more information
+**Grapple** es una extensión ligera para VS Code diseñada para navegar por tu código sin fricciones. Suelta un punto de control (checkpoint) visual en cualquier parte de tu código y regresa a él instantáneamente con una sola tecla.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### 🚀 Inicio Rápido
+* **Alternar Checkpoint:** Presiona `Ctrl+Alt+P` (`Cmd+Alt+P` en Mac) para poner o quitar un ancla visual en la línea actual.
+* **Regresar Instantáneamente:** Abre la paleta de comandos (`Ctrl+Shift+P`) y ejecuta `Grapple: Ir al Checkpoint` para saltar de vuelta a tu ancla desde cualquier archivo.
 
-**Enjoy!**
+### ✨ Características
+* **Anclas Visuales:** Resaltado sutil de línea y marcas en la barra de scroll para no perder de vista tu checkpoint.
+* **Navegación Inmediata:** Abre automáticamente el archivo correcto, mueve el cursor y centra la pantalla.
+* **Enfocado en Teclado:** Totalmente compatible con los atajos de teclado personalizados de VS Code.
